@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "app-placapay-expo",
+    "scheme": "app-placapay-expo",
     "slug": "app-placapay-expo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,7 +25,8 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     }
   }
 }
